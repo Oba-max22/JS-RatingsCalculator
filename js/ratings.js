@@ -27,6 +27,4 @@ document.addEventListener("change", () => {
     const averageElement = document.querySelector("#average").value;
     averageElement.value = ratings.average.toFixed(2);
 
-    console.log(averageElement.value)
-
 })
